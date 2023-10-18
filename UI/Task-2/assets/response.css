@@ -1,0 +1,1857 @@
+/* responsivenes starting */
+
+@media (max-width:550px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .headsection {
+        background-position: 85%;
+        height: 100vh;
+        padding: 0px;
+    }
+
+    .navigation-child {
+        padding: 0px;
+        flex-direction: column;
+
+    }
+
+    .navigation {
+        margin: 0px;
+        display: block;
+        padding: 15px;
+    }
+
+    .navigation-img {
+
+        position: static;
+        height: 35px;
+
+    }
+
+    .navigation-child2 {
+
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .navigation-child5 {
+        padding-right: 0px;
+    }
+
+    .headsection-child {
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+    }
+
+    .headsection-child1 {
+        font-size: 40px;
+    }
+
+    .headsection-child5 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .headsection-child2 {
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+
+    .headsection-child3 {
+        width: 175px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .headsection-child4 {
+        margin-left: 4px;
+    }
+
+    .aboutus {
+        height: auto;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .aboutus-child1 {
+        margin: 0px;
+        font-size: 40px;
+        width: 100%;
+
+    }
+
+    .aboutus-child14 {
+        width: 100%;
+    }
+
+    .aboutus-child {
+        padding: 15px;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .aboutus-child11 {
+        font-size: 30px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .aboutus-img {
+        height: 282px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .aboutus-child12 {
+        font-size: 20px;
+
+    }
+
+    .analytics {
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .analytics-child {
+        padding: 0px;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 50px;
+        /* padding-top: 20px; */
+    }
+
+    .analytics-child1 {
+        padding-top: 50px;
+    }
+
+    .ecoverse-child {
+        height: auto;
+        margin-left: 0px;
+        border: 0px;
+        border-radius: 0px;
+        padding: 15px 15px 40px 15px;
+
+    }
+
+    .ecoverse-child1 {
+        margin-right: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .ecoverse-img {
+        position: static;
+        margin: 0px;
+        width: 100%;
+
+    }
+
+    .ecoverse-child7 {
+        top: 20%;
+        left: 46%;
+    }
+
+    .ecoverse-child3 {
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+
+    .ecoverse-child4 {
+        font-size: 20px;
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
+    }
+
+    .ecoverse-child5 {
+        font-size: 16px;
+    }
+
+    .ecoverse-child2 {
+        margin: 30px 0px;
+        font-size: 50px;
+    }
+
+    .subscription-child {
+        display: block;
+        padding: 15px;
+    }
+
+    .subscriptionsec {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .subscriptionsec-child3 {
+
+        width: 100%;
+    }
+
+    .pay-analy {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .payments {
+
+        width: 100%;
+        align-items: end;
+        flex-direction: column;
+    }
+
+    .pay-analytics {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .payments-child2 {
+
+        font-size: 25px;
+    }
+
+    .payments-child1 {
+
+        font-size: 45px;
+    }
+
+    .pay-analytics-child {
+        margin: 0px 5%;
+        width: 90%;
+    }
+
+    .pay-analytics-child1 {
+        font-size: 44px;
+    }
+
+    .pay-analytics-child2 {
+        font-size: 25px;
+        width: 90%;
+    }
+
+    .subscriptionsec-child2 {
+        font-size: 25px;
+    }
+
+    .subscriptionsec-child1 {
+        font-size: 46px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .subscriptionsec-child {
+
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .payments-child {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .pay-analytics-child3 {
+        padding-top: 30px;
+    }
+
+    .exchange-child1 {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .exchange-child {
+        height: auto;
+        margin-right: 0px;
+        border: 0px;
+        border-radius: 0px;
+        padding: 20px;
+    }
+
+    .exchange-img {
+        margin: 30px 0px 0px 0px;
+        position: static;
+        width: 100%;
+
+    }
+
+    .exchange-child2 {
+        top: 82%;
+        right: 43%;
+    }
+
+    .exchange {
+
+        padding-top: 0px;
+    }
+
+    .test {
+        padding: 0px;
+    }
+
+    .test1 {
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .test-img {
+        position: static;
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .test-child {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .test-child1 {
+        margin: 0px 0px 20px 0px;
+        font-size: 40px;
+    }
+
+    .test-child3 {
+        margin: 20px 0px;
+    }
+
+    .test-child5 {
+        margin: 20px 0px 20px 90%;
+    }
+
+    .footer-child1 {
+        display: block;
+        margin: 0px;
+        padding: 15px;
+
+    }
+
+    .footerlogo {
+        height: auto;
+        margin: 0px;
+        position: static;
+    }
+
+    .footer-child12 {
+        margin: 20px 0px;
+
+    }
+
+    .footer-child13 {
+        padding: 9px 4px 6px 10px;
+        height: auto;
+        margin: 0px;
+        font-size: 20px;
+        width: 275px;
+    }
+
+    .footer-child14 {
+        height: auto;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .footer-child2 {
+        margin: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+
+    .footerlastsec-child6 {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .footerlastsec-child1 {
+        margin: 0px;
+    }
+
+    .footerlastsec-child3 {
+        margin-right: 0px;
+
+    }
+
+    .footerlastsec {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .footerlastsec-child7 {
+
+        margin-top: 0px;
+    }
+
+    .footercopyright {
+        margin: 0px;
+        padding: 20px 10px 10px 20px;
+    }
+
+    .footerlastsec-child8 {
+        margin-bottom: 30px;
+    }
+
+    .footer-child14-2 {
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+
+    .footer-child14-4 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-child14-5 {
+        width: 93%;
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .footerlastsec-child5 {
+        font-size: 30px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+
+    .footer-second-sec {
+        padding-left: 15px;
+        margin-bottom: 0px;
+    }
+}
+
+/* responsiveness for mobile ending*/
+
+
+
+/* media query for ipad mini starting */
+@media (min-width:768px) and (max-width:991px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .navigation-img {
+        height: auto;
+        width: 140px;
+        position: static;
+    }
+
+    .headsection {
+        background-position: 85%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .headsection-child1 {
+        font-size: 50px;
+
+    }
+
+    .headsection-child5 {
+
+        font-size: 70px;
+    }
+
+    .headsection-child2 {
+        font-size: 30px;
+        margin: 10px 0PX;
+    }
+
+    .navigation {
+        padding: 30px;
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .navigation-child {
+        flex-direction: column;
+        padding: 0px;
+        font-size: 25px;
+    }
+
+    .navigation-child2 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .headsection-child {
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+    }
+
+    .headsection-child4 {
+        margin-left: 15px;
+    }
+
+    .aboutus-child {
+
+        padding: 30px;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .headsection-child3 {
+        width: 25%;
+    }
+
+    .aboutus {
+        height: auto;
+    }
+
+    .aboutus-child14 {
+        width: 100%;
+    }
+
+    .aboutus-child11 {
+
+        padding: 0px;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        font-size: 35px;
+    }
+
+    .aboutus-img {
+        height: auto;
+        width: auto;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .aboutus-child1 {
+        margin: 40px 0px 10px 0px;
+        font-size: 60px;
+    }
+
+    .analytics-child {
+        padding: 30px;
+        height: auto;
+    }
+
+    .analytics {
+        padding: 30px;
+    }
+
+    .ecoverse-child {
+        height: auto;
+        padding: 30px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .ecoverse-img {
+        width: 540px;
+        height: 400px;
+        margin-right: 0px;
+        position: static;
+
+    }
+
+    .ecoverse-child1 {
+
+        width: 100%;
+        margin: 0px;
+    }
+
+    .ecoverse-child2 {
+        margin: 30px 0px;
+        font-size: 60px;
+        color: rgba(185, 185, 185, 0.5);
+
+    }
+
+    .ecoverse-child4 {
+        margin: 30px 0px;
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
+    .ecoverse-child3 {
+        font-size: 35px;
+        margin: 30px 0px;
+    }
+
+    .ecoverse-child7 {
+        top: 24%;
+        left: 34%;
+    }
+
+    .subscription-child {
+        flex-direction: column;
+        padding: 50px 30px 30px 30px;
+    }
+
+    .subscriptionsec {
+        width: 100%;
+        margin-right: 0px;
+        height: auto;
+        padding: 30px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .subscriptionsec-child {
+        margin: 0px;
+    }
+
+    .subscriptionsec-child1 {
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    .subscriptionsec-child2 {
+        font-size: 30px;
+
+    }
+
+    .subscriptionsec-child3 {
+        height: 350px;
+        width: 450px;
+    }
+
+    .payments {
+        width: 100%;
+        align-items: end;
+        padding: 30px 0px 30px 30px;
+        flex-direction: column;
+        margin: 0px 0px 30px 0px
+    }
+
+    .payments-child2 {
+
+        font-size: 26px;
+    }
+
+    .payments-child1 {
+
+        font-size: 50px;
+    }
+
+    .pay-analytics {
+        width: 100%;
+        align-items: start;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .pay-analytics-child1 {
+        font-size: 50px;
+    }
+
+    .pay-analytics-child {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .pay-analytics-child2 {
+
+        font-size: 25px;
+    }
+
+    .payments-child {
+        margin: 0px;
+    }
+
+    .pay-analytics-img {
+        width: 260px;
+        height: 200px;
+    }
+
+    .exchange {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .exchange-child {
+        height: auto;
+        margin-right: 0px;
+        border-radius: 0px;
+        padding: 30px;
+    }
+
+    .exchange-img {
+
+        width: 500px;
+        height: 400px;
+        margin: 30px 0px 0px 0px;
+        position: static;
+    }
+
+    .exchange-child1 {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .exchange-child2 {
+
+        top: 73%;
+        left: 33%;
+    }
+
+    .test {
+        padding: 30px;
+    }
+
+    .test1 {
+        margin: 0px;
+    }
+
+    .test-img {
+
+        height: 400px;
+        width: 350px;
+        position: static;
+        margin: 0px;
+    }
+
+    .test-child {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .test-child1 {
+        margin: 30px 0px;
+        font-size: 60px;
+    }
+
+    .test-child2 {
+        font-size: 40px;
+    }
+
+    .test-child3 {
+        padding-top: 30px;
+    }
+
+    .test-child4 {
+        margin: 30px 0px;
+    }
+
+    .test-child5 {
+        margin: 0px 0px 0px 90%;
+        padding: 0px;
+    }
+
+    .footer-child1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footerlogo {
+        margin: 0px;
+        position: static;
+    }
+
+    .footer-child12 {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .footer-child13 {
+        height: auto;
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .footer-child13-1 {
+        margin-left: 100px;
+    }
+
+    .footer-child14 {
+        margin-top: 0px;
+    }
+
+    .footer-child14-2 {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .footer-child14-4 {
+        flex-direction: column;
+    }
+
+    .footer-child14-5 {
+        flex-direction: column;
+        justify-content: normal;
+        margin: 0px;
+    }
+
+    .footerlogo {
+        height: 80px;
+        width: 130px;
+        position: static;
+        margin: 0px;
+    }
+
+    .footerlastsec-child1 {
+        margin: 0px 50px 0px 0px;
+    }
+
+    .footerlastsec-child3 {
+        margin: 0px 0px 0px 60px;
+    }
+
+    .footerlastsec {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .footer-second-sec {
+        padding: 0px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-child2 {
+        margin: 25px 0px 0px 0px;
+    }
+
+    .footerlastsec-child7 {
+        margin: 15px 0px 0px 95px;
+    }
+
+    .footercopyright {
+        margin: 40px 0px 0px 15%;
+    }
+
+    .footerlastsec-child6 {
+
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+/* media query for ipad mini ending */
+
+
+/* media query for ipad pro starting */
+
+@media (min-width:992px) and (max-width:1199px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .navigation-img {
+        height: auto;
+        width: 140px;
+        position: static;
+    }
+
+    .headsection {
+        background-position: 85%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .navigation {
+        padding: 30px;
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    .navigation-child {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .navigation-child {
+        flex-direction: column;
+        padding: 0px;
+        font-size: 25px;
+    }
+
+    .navigation-child2 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .headsection-child {
+        width: 50%;
+        margin: 0px;
+        padding: 30px;
+    }
+
+    .headsection-child2 {
+        font-size: 35px;
+
+    }
+
+    .headsection-child1 {
+        font-size: 65px;
+    }
+
+    .headsection-child5 {
+        font-size: 85px;
+
+    }
+
+    .headsection-child3 {
+        width: 45%;
+        font-size: 23px;
+    }
+
+    .aboutus-child1 {
+        font-size: 60px;
+        margin: 30px 0px;
+    }
+
+
+    .aboutus-child {
+        padding: 30px;
+    }
+
+    .analytics {
+        padding: 50px 30px;
+    }
+
+
+    .ecoverse {
+        padding: 30px 0px;
+    }
+
+    .ecoverse-img {
+        width: 400px;
+        height: 350px;
+        border: 2px solid #0d4e5a;
+        margin: 0px;
+        top: 33%;
+        left: 30px;
+    }
+
+    .ecoverse-child1 {
+        width: 50%;
+        margin-left: 40%;
+    }
+
+    .ecoverse-child2 {
+        font-size: 65px;
+        margin: 30px 0px;
+    }
+
+    .ecoverse-child3 {
+        font-size: 35px;
+        margin: 30px 0px;
+
+    }
+
+    .ecoverse-child {
+        height: auto;
+        padding: 30px 0px 100px 0px;
+    }
+
+    .ecoverse-child4 {
+        font-size: 25px;
+        margin: 30px 0px;
+        padding: 0px;
+    }
+
+    .ecoverse-child5 {
+        font-size: 20px;
+    }
+
+    .ecoverse-child7 {
+        top: 50%;
+        left: 20%;
+    }
+
+    .subscription-child {
+        flex-direction: column;
+        padding: 60px 30px 30px 30px;
+    }
+
+    .subscriptionsec {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .pay-analy {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .payments {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: end;
+        justify-content: start;
+        padding: 40px;
+        margin: 0px 30px 0px 0px;
+
+    }
+
+    .pay-analytics {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+        padding: 40px;
+    }
+
+    .subscriptionsec-child {
+        flex-direction: row;
+        margin: 0px;
+        padding: 30px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .pay-analytics-child3 {
+        width: 100%;
+    }
+
+    .pay-analytics-child {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .subscriptionsec-child1 {
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    .subscriptionsec-child2 {
+        font-size: 30px;
+    }
+
+    .subscriptionsec-child3 {
+        width: 100%;
+        margin: 0px 0px 0px 50px;
+    }
+
+    .payments-child1 {
+        font-size: 50px;
+    }
+
+    .payments-child2 {
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+
+    .pay-analytics-child2 {
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+
+    .payments-child {
+        margin: 0px;
+    }
+
+    .pay-analytics-child1 {
+        font-size: 50px;
+    }
+
+    .exchange-child {
+        height: auto;
+        padding: 30px 30px 50px 30px;
+    }
+
+
+    .exchange-img {
+        margin: 0px;
+        top: 35%;
+        right: 25px;
+    }
+
+    .exchange-child2 {
+        top: 48%;
+        right: 18%;
+    }
+
+    .exchange-child1 {
+        width: 50%;
+        margin: 0px 0px 0px 115px;
+    }
+
+    .exchange {
+        padding: 80px 0px;
+    }
+
+    .test {
+        padding: 40px;
+    }
+
+    .test1 {
+        margin: 0px;
+    }
+
+    .test-child {
+        margin: 0px;
+        width: 60%;
+    }
+
+    .test-child1 {
+        margin: 30px 0px;
+        font-size: 60px;
+    }
+
+    .test-img {
+        margin: 0px;
+        height: 300px;
+        width: 300px;
+
+
+    }
+
+    .test-child2 {
+        font-size: 40px;
+    }
+
+    .test-child4 {
+        font-size: 25px;
+    }
+
+    .test-child5 {
+        margin: 0px 0px 0px 90%;
+    }
+
+    .footer-child1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footerlogo {
+        position: static;
+        height: 40px;
+        width: 150px;
+        margin: 0px;
+    }
+
+    .footer-child12 {
+        margin: 0px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-child13 {
+        height: 40px;
+    }
+
+    .footer-child2 {
+        margin: 0px;
+    }
+
+    .footer-second-sec {
+        padding: 0px;
+    }
+
+    .footerlastsec-child3 {
+        margin: 0px;
+
+    }
+
+    .footerlastsec-child1 {
+        margin: 0px 20px 0px 0px;
+    }
+
+    .footerlastsec-child6 {
+        margin: 0px 20px 0px 0px;
+    }
+
+    .footercopyright {
+        margin: 50px 0px 0px 30%;
+    }
+
+    .footer-child14-5 {
+        margin: 0px;
+    }
+
+}
+
+
+/* media query for ipad pro ending */
+
+
+/* media query for medium desktop starting */
+@media (min-width:1400px) {
+    .navigation {
+        padding: 40px;
+        margin: 0px;
+    }
+
+    .navigation-img {
+        height: 130px;
+    }
+
+    .headsection {
+        height: 100vh;
+        background-position: 85%;
+    }
+
+    .headsection-child {
+        padding: 30px;
+        margin: 30px;
+    }
+
+    .aboutus-child14 {
+        width: 50%;
+    }
+
+    .aboutus-child11 {
+        width: 100%;
+    }
+
+    .aboutus-img {
+        width: 100%;
+    }
+
+    .aboutus-child {
+        padding: 50px 5%;
+    }
+
+    .analytics-child {
+        padding: 5%;
+        height: auto;
+    }
+
+    .ecoverse-child {
+        height: auto;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .ecoverse-child5 {
+        font-size: 20px;
+    }
+
+    .ecoverse-child3 {
+        font-size: 35px;
+
+    }
+
+    .ecoverse-child2 {
+        font-size: 60px;
+        margin: 80px 0px 30px 0px;
+    }
+
+    .ecoverse-child4 {
+        font-size: 25px;
+
+    }
+
+    .ecoverse-img {
+        width: 500px;
+        height: 450px;
+        top: 19%;
+        left: 36px;
+    }
+
+    .ecoverse-child1 {
+        width: 40%;
+        margin: 0px 0px 0px 35%;
+    }
+
+    .ecoverse {
+        padding: 40px 0px;
+    }
+
+    .subscriptionsec {
+        width: 100%;
+        height: auto;
+        padding: 40px 50px;
+    }
+
+    .payments {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .pay-analytics {
+        height: auto;
+        width: 100%;
+        padding: 30px;
+        margin: 0px;
+        justify-content: space-around;
+    }
+
+    .subscription-child {
+        padding: 40px;
+        margin: 0px;
+    }
+
+    .subscriptionsec-child1 {
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    .subscriptionsec-child2 {
+        font-size: 25px;
+        margin: 30px 0px;
+    }
+
+    .payments-child1 {
+        font-size: 50px;
+    }
+
+    .payments-child2 {
+        font-size: 25px;
+        width: 85%;
+    }
+
+    .pay-analytics-child1 {
+
+        font-size: 50px;
+    }
+
+    .pay-analytics-child2 {
+        font-size: 25px;
+    }
+
+    .subscriptionsec-child3 {
+        height: 300px;
+        width: 100%;
+    }
+
+    .subscriptionsec-child {
+        margin: 0px;
+    }
+
+
+    .pay-analytics-child {
+        margin: 10px 0px 10px 10px;
+    }
+
+    .payments-child {
+        margin: 10px;
+    }
+
+    .pay-analytics-img {
+        width: 300px;
+    }
+
+    .pay-analytics-child4 {
+        width: 50%;
+    }
+
+    .exchange-child {
+        height: auto;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .exchange-img {
+        width: 450px;
+        height: 450px;
+        top: 24%;
+        right: 5px;
+    }
+
+    .exchange-child2 {
+
+        top: 46%;
+        right: 17%;
+    }
+
+    .exchange-child1 {
+        width: 49%;
+        margin: 100px 0px 0px 150px;
+    }
+
+    .test-child4 {
+        margin: 30px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* media query for medium desktop ending */
+
+
+
+/* media query for very large desktop starting */
+@media (min-width:1900px) {
+    .headsection {
+        padding: 0px 200px 0px 200px;
+    }
+
+    .aboutus-child {
+        padding: 50px 200px;
+        justify-content: space-around;
+    }
+
+    .aboutus-child1 {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .analytics-child {
+        padding: 50px 200px;
+        height: auto;
+    }
+
+    .ecoverse-child {
+        height: auto;
+        padding: 0px 0px 30px 0px;
+        margin: 0px 0px 0px 20%;
+    }
+
+    .ecoverse-img {
+        width: 540px;
+        height: 450px;
+        top: 20%;
+        left: 225px;
+    }
+
+    .ecoverse-child7 {
+        top: 45%;
+        left: 25%;
+    }
+
+    .ecoverse-child1 {
+        width: 45%;
+        margin: 0px 0px 0px 33%;
+    }
+
+    .subscription-child {
+        padding: 40px 250px;
+        margin: 0px;
+    }
+
+    .exchange-child {
+        height: auto;
+        padding: 0px 0px 30px 0px;
+        margin: 0px 20% 0px 0px;
+    }
+
+    .exchange-img {
+        width: 535px;
+        height: 455px;
+        top: 24%;
+        right: 170px;
+    }
+
+    .exchange-child1 {
+        width: 50%;
+        margin: 100px 0px 0px 250px;
+    }
+
+    .test {
+        padding: 30px 110px 60px 200px;
+    }
+
+    .test-img {
+
+        height: 330px;
+        width: 300px;
+        top: 23%;
+        right: 320px;
+
+    }
+
+    .footer {
+        padding: 40px 200px;
+    }
+
+    .footerlogo {
+        top: 7%;
+        left: 265px;
+    }
+
+    .footerlastsec-child1 {
+        margin: 0px 20px 0px 0px;
+    }
+
+    .footerlastsec-child3 {
+        margin: 0px;
+    }
+
+    .test-child5 {
+        margin-left: 90%;
+        padding-bottom: 30px;
+    }
+
+    .footer-child2 {
+        margin: 0px;
+        position: relative;
+        right: 40px;
+    }
+
+    .footer-second-sec {
+        padding: 0px;
+    }
+
+    .footerlastsec {
+        justify-content: space-around;
+    }
+
+    .footercopyright {
+        margin: 100px 0px 0px 45%;
+        font-size: 25px;
+    }
+
+    .exchange-child2 {
+        top: 53%;
+        right: 23%;
+    }
+
+
+
+}
+
+/* media query for surface duo starting */
+
+@media (min-width:600px) and (max-width:760px) {
+    .headsection {
+        height: 100vh;
+        background-position: 85%;
+    }
+
+    .navigation {
+        margin: 0px;
+        padding: 15px;
+        justify-content: space-around;
+    }
+
+    .navigation-child2 {
+        padding: 0px 25px 0px 15px;
+        margin: 0px;
+    }
+
+    .navigation-child {
+        padding: 0px;
+        margin: 20px 0px 0px 0px;
+        font-size: 10px;
+    }
+
+    .navigation-img {
+        position: static;
+        height: 50px;
+        width: 80px;
+    }
+
+    .navigation-child5 {
+        padding-right: 33px;
+    }
+
+    .headsection-child {
+        margin: 0px;
+        padding: 20px;
+        width: 60%;
+    }
+
+    .headsection-child1 {
+        font-size: 35px;
+    }
+
+    .headsection-child5 {
+        font-size: 50px;
+    }
+
+    .headsection-child2 {
+        font-size: 15px;
+    }
+
+    .headsection-child3 {
+        width: 40%;
+        padding: 8px 6px 6px 15px;
+        font-size: 15px;
+    }
+
+    .aboutus-child {
+        flex-direction: column;
+        padding: 25px 25px 60px 25px;
+        margin: 0px;
+        align-items: start;
+    }
+
+    .aboutus {
+        height: auto;
+    }
+
+    .aboutus-child11 {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 25px;
+    }
+
+    .aboutus-child1 {
+        margin: 0px;
+    }
+
+    .aboutus-img {
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .analytics-child {
+        height: auto;
+        padding: 40px 40px;
+    }
+
+    .analytics-child4 {
+        font-size: 13px;
+    }
+
+    .ecoverse-img {
+        position: static;
+        margin: 0PX;
+        width: 73%;
+    }
+
+    .ecoverse-child {
+        height: auto;
+        border-radius: 0px;
+        margin: 0px;
+    }
+
+    .ecoverse-child1 {
+        width: 100%;
+        margin: 0px;
+        padding: 20px 20px 50px 20px;
+    }
+
+    .ecoverse-child7 {
+
+        top: 22%;
+        left: 30%;
+
+    }
+
+    .ecoverse-child2 {
+        margin: 0px 0px 30px 0px;
+        font-size: 52px;
+    }
+
+    .ecoverse-child4 {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .ecoverse-child3 {
+        margin: 30px 0px;
+        font-size: 30px;
+    }
+
+    .subscriptionsec {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        height: auto;
+        padding: 30px;
+    }
+
+    .payments {
+        height: auto;
+        width: 100%;
+        padding: 30px;
+        margin: 0px 0px 30px 0px;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .pay-analytics {
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .subscription-child {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .subscriptionsec-child {
+        margin: 0px;
+    }
+
+    .subscriptionsec-child1 {
+        font-size: 45px;
+    }
+
+    .subscriptionsec-child2 {
+        font-size: 20px;
+    }
+
+    .payments-child {
+        margin: 0px;
+    }
+
+    .payments-child1 {
+        font-size: 45px;
+    }
+
+    .payments-child2 {
+        font-size: 20px;
+    }
+
+    .pay-analytics-child1 {
+        font-size: 45px;
+    }
+
+    .pay-analytics-child2 {
+        font-size: 20px;
+    }
+
+    .pay-analytics-child3 {
+        width: 100%;
+    }
+
+    .pay-analytics-child {
+
+        margin: 0px;
+        width: 100%;
+    }
+
+    .pay-analytics-child4 {
+        padding: 0px;
+    }
+
+    .pay-analytics-img {
+        width: 200px;
+    }
+
+    .exchange-child {
+        height: auto;
+        margin: 0px;
+        padding: 20px 20px 50px 20px;
+        border-radius: 0px;
+    }
+
+    .exchange-img {
+        position: static;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .exchange-child1 {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .exchange-child2 {
+        top: 68%;
+        left: 25%;
+    }
+
+    .test-img {
+        width: 50%;
+        position: static;
+        margin: 0px;
+        height: 350px;
+    }
+
+    .test1 {
+        margin: 0px;
+    }
+
+    .test-child {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .test {
+        padding: 30px 30px 60px 30px;
+    }
+
+    .test-child1 {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .test-child3 {
+        padding-top: 30px;
+    }
+
+    .test-child4 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .test-child5 {
+        float: right;
+    }
+
+    .footer-child1 {
+        /* flex-direction: column; */
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer-child14-5 {
+        width: 35%;
+        flex-direction: column;
+    }
+
+    .footer-child12 {
+        margin: 0px;
+    }
+
+    .footerlogo {
+        position: static;
+    }
+
+    .footer-child14-4 {
+        flex-direction: column;
+    }
+
+    .footer-second-sec {
+        padding: 0px;
+    }
+
+    .footer-child2 {
+        margin: 25px 0px 0px 0px;
+    }
+
+    .footerlastsec {
+
+        flex-direction: column;
+    }
+
+    .footerlastsec-child3 {
+        margin: 0px 0px 0px 40px;
+    }
+
+    .footerlastsec-child1 {
+        margin: 0px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-child13-1 {
+        margin-left: 80px;
+    }
+
+    .footer-child13 {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .footerlastsec-child7 {
+        margin: 10px 0px 0px 30px;
+    }
+
+    .footercopyright {
+        padding: 20px 0px 0px 0px;
+        margin: 0px 0px 0px 15%;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media query for surface duo ending */

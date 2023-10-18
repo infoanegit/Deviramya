@@ -1,0 +1,938 @@
+/* Home page css starting */
+
+.home-bgimg {
+    background-color: #222;
+    height: 100vh;
+
+}
+
+.navbar .active {
+    color: #9acd32;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #9acd32;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.fa-solid,
+.fas {
+    padding-right: 5px;
+}
+
+.fa-r-project:before {
+    padding-right: 8px;
+}
+
+.fa-comments:before {
+    padding-right: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #222;
+}
+
+/* .navbar {
+    position: absolute;
+} */
+
+.home-img-parent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #9acd32;
+}
+
+.home-img {
+    height: 350px;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #9acd32;
+}
+
+.button1 {
+    background-color: #9acd32;
+
+    border-radius: 35px;
+    padding: 10px 15px;
+    transition: width 0.5s;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+div a span {
+
+    font-weight: 600;
+    color: #fff;
+    line-height: 46px;
+    font-size: 15px;
+    letter-spacing: .5px;
+
+}
+
+.button1:hover {
+    background-color: gray;
+    text-decoration: none;
+    color: #fff;
+    border: 0.001px solid gray;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 40px;
+    padding-left: 75px
+}
+
+.navbar-toggler-icon {
+    border: 1px solid #9acd32;
+    padding: 10px 10px;
+}
+
+/* .home-img-parent div .col-sm-6 {
+    padding: 0px;
+} */
+
+.home-img-parent div h3 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.2px;
+    color: #eee;
+    margin: 0px 0px 25px 0px;
+    /* padding: 0px 0px 10px 0px; */
+}
+
+.home-img-parent div h1 span {
+    color: #9acd32;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    white-space: nowrap;
+
+}
+
+.home-img-parent div h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 500;
+    margin: 20px 0px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji", 'Poppins', sans-serif;
+}
+
+.home-img-parent div p {
+    margin: 11px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #eee;
+}
+
+.navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border: 0px;
+    padding: 0px;
+}
+
+.home-img2 {
+    margin: 0px;
+}
+
+.home-text {
+    margin: 0px;
+}
+
+/* Home page css ending */
+
+/* about page css starting */
+
+.about-parent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.about {
+    position: relative;
+
+}
+
+.about-bg h2 span {
+    color: #9acd32;
+}
+
+.about-title {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 15px;
+    margin: 20px 0px 0px 0px;
+    font-weight: 400;
+}
+
+.about-title::before {
+    position: absolute;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    color: #9acd32;
+    background-color: #9acd32;
+    top: 78%;
+    left: 25%;
+    opacity: 0.8;
+
+}
+
+.about-title::after {
+    position: absolute;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    color: #9acd32;
+    background-color: #9acd32;
+    top: 78%;
+    right: 25%;
+    opacity: 0.8;
+
+}
+
+.about-img {
+    position: relative;
+
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+
+}
+
+.img-container {
+    position: relative;
+    display: block;
+}
+
+.img-container::before {
+    border: 6px solid #9acd32;
+    display: inline-block;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: translate3d(26px, 26px, -26px);
+}
+
+
+
+.about-bg h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.about-ul ul li:nth-child(4) {
+    padding: 0px 0px 5px 0px;
+}
+
+.about-ul ul li:nth-child(5) {
+    padding: 0px 0px 5px 0px;
+}
+
+.about-ul ul li:last-child {
+    padding: 0px;
+}
+
+.about-list {
+    color: #fff;
+}
+
+.about-list div ul li {
+    list-style-type: none;
+    padding: 0px 0px 20px 0px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+
+.about-list div ul li h6 span {
+    font-weight: 200;
+    font-size: 16px;
+    opacity: 0.7;
+    padding: 0px 20px 0px 0px;
+
+}
+
+.btn2 {
+    margin: 0px 0px 0px 20px;
+}
+
+.about-ul {
+    color: #eee;
+}
+
+
+/* about page css ending */
+
+
+/* skills page css starting */
+.skills {
+    background-color: #222;
+    height: 100vh;
+}
+
+.skills-parent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.skills div p::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    color: #9acd32;
+    background-color: #9acd32;
+    top: 82%;
+    left: 22%;
+    opacity: 0.8;
+
+}
+
+.skills div p::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    color: #9acd32;
+    background-color: #9acd32;
+    top: 82%;
+    right: 22%;
+    opacity: 0.8;
+
+}
+
+
+.skills div h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+    color: #9acd32;
+}
+
+.skills-text {
+    display: block;
+    margin-bottom: 18px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+
+
+}
+
+.skills-subtitle {
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.skill-progress {
+    margin: 0px 0px 80px 0px;
+}
+
+.skill-progress span span {
+    color: #9acd32;
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+}
+
+
+.percent1 {
+    height: 32px;
+    position: absolute;
+    width: 46px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 31px;
+    top: 16%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #9acd32;
+    color: #9acd32;
+    left: 79%;
+}
+
+.arrow1 {
+    background: #222;
+    border: 1px solid #9acd32;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: translateY(33.5px) rotate(45deg) skew(3deg, 3deg) translateX(-27px);
+    bottom: 8px;
+    position: absolute;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.progress {
+    height: 1px;
+    background-color: #555;
+}
+
+.progress-bar {
+    background-color: #9acd32;
+}
+
+.progress1 {
+    width: 85%;
+}
+
+
+
+
+
+/* skills page css ending */
+
+
+/* Resume page css starting */
+
+.resume-parent {
+    color: #fff;
+}
+
+.edu-section {
+    color: #fff;
+}
+
+.res {
+    position: relative;
+}
+
+.edu-section-subtitle {
+    color: #eee;
+    margin: 0px 0px 3rem 0px;
+    text-transform: uppercase;
+
+}
+
+.edu-section-subtitle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    color: #9acd32;
+    background-color: #9acd32;
+    top: 91%;
+    left: 0%;
+    opacity: 0.8;
+}
+
+.edu-section-subtitle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    color: #9acd32;
+    background-color: #9acd32;
+    top: 91%;
+    right: 0%;
+    opacity: 0.8;
+}
+
+.edu-section1 {
+    color: #fff;
+}
+
+.edu-section-maintitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+    color: #9acd32
+}
+
+.edu-title-section {
+    margin: 0px 0px 50px 0px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #eee;
+}
+
+.card {
+
+    background-color: transparent;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0px;
+
+}
+
+.resume-ul {
+    padding-left: 0px;
+}
+
+.card {
+    padding: 0px;
+    margin-top: -2px;
+
+    border-left: 1px solid #9acd32;
+
+    position: relative;
+}
+
+.card::before {
+    content: "";
+
+    position: absolute;
+
+    width: 16px;
+
+    height: 16px;
+
+    border-radius: 50px;
+
+    left: -9px;
+
+    top: 0;
+
+    background: #222;
+
+    border: 1px solid #9acd32;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 0px 15px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.edu-section .card-body {
+    padding: 0px 2rem 0px;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0px;
+
+}
+
+.edu-section1 .card-body {
+    padding: 0px 2rem 2rem;
+}
+
+.card-text span {
+    font-size: 19px;
+    opacity: 0.8;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9acd32;
+}
+
+.card-title {
+    color: #9acd32;
+}
+
+.card-text span i {
+    margin: 0px 8px 0px 0px;
+
+}
+
+.card-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text h6 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+
+}
+
+.card-text h5 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px 0px 7px 0px;
+}
+
+.card-body ul li {
+    list-style-type: none;
+    padding: 0px 0px 5px 0px;
+}
+
+
+
+
+
+/* Resume page css ending */
+
+
+
+/* projects page css starting */
+.proj-parent {
+    color: #fff;
+
+}
+.proj-title {
+    color: #9acd32;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.proj {
+    position: relative;
+    padding: 40px 0px;
+    margin-bottom: 30px;
+}
+
+.proj-subtitle {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.proj-subtitle::before {
+    background-color: #9acd32;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 72%;
+    left: 17%;
+
+}
+
+.proj-subtitle::after {
+    background-color: #9acd32;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 72%;
+    right: 17%;
+
+}
+
+.proj-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.proj-text {
+    color: #eee;
+}
+
+.proj-text p {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.proj-text div h4 {
+    color: #9acd32;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+/* projects page css ending */
+
+
+
+/* get in touch page css ending */
+
+.getintouch {
+    position: relative;
+}
+
+.getintouch-maintitle {
+    color: #9acd32;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.getintouch-subtitle {
+    color: #eee;
+}
+
+.getintouch p {
+    margin: 0px 0px 50px 0px;
+}
+
+.getintouch-subtitle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: #9acd32;
+    top: 89%;
+    left: 19%;
+}
+
+.getintouch-subtitle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: #9acd32;
+    top: 89%;
+    right: 19%;
+}
+
+.getintouch-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.getintouch-list h6 {
+    font-weight: 600;
+
+}
+
+.getintouch-span {
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+    opacity: 0.9;
+    color: #fff;
+    font-weight: 400
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.getintouch-innerspan2 {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.getintouch-innerspan1 {
+    color: #9acd32;
+    font-size: 15px;
+}
+
+.form-group input[type=text] {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: #fff;
+    height: 46px;
+    padding: 0px 0px 0px 49px;
+    font-size: 14px;
+
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #444;
+    outline: 0;
+    box-shadow: 0 0 0 1px #9acd32;
+    border-color: #9acd32;
+}
+
+.form-group input[type=email] {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: #fff;
+    height: 46px;
+    padding: 0px 0px 0px 49px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    background: #333;
+    border: 0.1px solid #444;
+    color: #fff;
+    border-radius: 30px;
+    height: 130px;
+    padding: 12px 0 15px 49px;
+    outline: none;
+
+}
+
+.form-group i {
+    position: absolute;
+    left: 36px;
+    top: 15px;
+    font-size: 16px;
+    opacity: .3;
+    color: #eee;
+}
+
+.form-text {
+    color: #eee;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px 0px 25px;
+
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #9acd32;
+    border-radius: 30px;
+    position: relative;
+    font-style: 500;
+    height: 46px;
+    padding: 0px 30px;
+
+}
+
+.btn:hover {
+    background-color: #555;
+    border: 0.001px solid gray;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.5px #9acd32;
+}
+
+
+.social {
+    color: #eee;
+}
+
+.social ul li {
+    list-style-type: none;
+}
+
+.social ul li a {
+    color: #9acd32;
+    font-size: 20px;
+    border: 1px solid #9acd32;
+    border-radius: 50%;
+    padding: 7px 10px;
+    margin: 0px 10px 0px 0px;
+    text-decoration-style: none;
+}
+
+.social ul li a:hover {
+    color: #fff;
+    background-color: #9acd32;
+}
+
+.social h6 {
+    text-transform: capitalize;
+    display: block;
+    margin: 0px 0px 25px 0px;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: .8;
+    color: #fff;
+
+}
+
+.getintouch-innerspan1 i {
+    padding: 0px 10px 0px 0px;
+}
+
+.submit-form {
+    color: #fff;
+}
+
+.submit-form button a span {
+    line-height: 35px;
+}
+
+.submit-form button a i {
+    padding: 0px 10px 0px 0px;
+}
+
+.list-lastchild {
+    padding: 0px;
+}
+
+.getintouch-list li:last-child {
+    padding: 0px 0px 5px 0px;
+}
+
+.getintouch h1 span {
+    color: #fff;
+
+
+}
+
+.getintouch-parent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* get in touch page css ending */

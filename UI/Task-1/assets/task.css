@@ -1,0 +1,208 @@
+ body {
+  font-family: 'Mukta', sans-serif;
+ }
+.div1 {
+    height: 600px;
+    width: auto;
+background-image: url("https://img.freepik.com/free-photo/people-business-meeting-high-angle_23-2148911819.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+background-size: cover;
+background-blend-mode: overlay;
+position: relative;
+
+}
+.center {
+    position: absolute;
+    width: auto;
+    top: 30%;
+    text-align: center;
+    font-size: 70PX;
+    color: rgba(255, 253, 253,0.9);
+    margin-left: 30%;
+}
+ .center1 {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    text-align: center;
+    font-size: large;
+    color:rgba(255, 253, 253,0.9);
+    margin-left: 40%;
+ }
+  .button1 {
+    position: absolute;
+    top: 62%;
+    color: white;
+    background-color: rgb(63, 209, 148);
+    margin-left: 48%;
+    border: 1px solid  rgb(63, 209, 148);
+    padding: 7px 13px 7px 13px;
+    border-radius: 5px;
+
+
+  }
+
+  .div2 {
+    height: 250px;
+    width: auto;
+    background-image: url("https://thumbs.dreamstime.com/b/business-consulting-meeting-working-brainstorming-new-project-finance-investment-concept-148096441.jpg?w=768"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    position: relative;
+    
+
+  }
+   
+  .div3 {
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    margin-left: 18%;
+    margin-right: 17%;
+    padding: 1% 4% 1% 3%;
+    margin-bottom: 10%;
+    
+    
+
+  }
+
+  .h11 {
+    color: green;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 1%;
+  }
+  .h12 {
+    color: rgba(255, 253, 253,0.9);
+    font-size: larger;
+
+  }
+   .div4 {
+    display: flex;
+    background-color: black;
+    margin-top: 25%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 5px;
+   }
+  .div5 {
+    width: 45%;
+    margin-left: 10%;
+  }
+  .div6 {
+    height: 300px;
+    width: auto;
+    background-image: url("https://image.benq.com/is/image/benqco/what-is-the-best-led-color-for-reading-1-min?$ResponsivePreset$"),linear-gradient(rgba(151, 210, 245, 0.5),rgba(148, 201, 231, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    position: relative;
+    opacity: 0.8;
+
+
+  }
+  .div7 {
+    position: absolute;
+    top: 50%;
+     display: flex;
+     margin-left: 35%;
+  }
+  .div8 {
+    position: absolute;
+    top: 57%;
+    margin-left: 42%;
+  }
+  .div9 {
+    display: flex;
+    background-color: rgba(56, 55, 55, 0.5);
+    padding-bottom: 40px;
+    position: relative;
+  
+  }
+  .button2{
+    position: absolute;
+    top: 13%;
+    background-color: rgba(58, 57, 57, 0.5);
+    color: white;
+    border: 1px inset rgb(253, 252, 252);
+    font-size: 10px;
+    margin-left: 10%;
+  }
+  .div10 {
+    margin-left: 10%;
+    color:rgba(255, 253, 253,0.9);
+  
+  }
+  .div11 {
+    margin-left: 8%;
+    margin-right: 10%;
+  
+  }
+  .div12{
+    border: 2px outset hsl(0, 0%, 6%);
+    width: 33.3%;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 7px rgb(99, 97, 97);
+  }
+
+.div13 {
+  position: absolute;
+  top: 5%;
+  margin-left: 70%;
+  color: rgba(255, 253, 253,0.9);
+}
+.div14 {
+  position: absolute;
+  top: 9%;
+  margin-left: 64%;
+  display: flex;
+  color: rgba(255, 253, 253,0.8);
+}
+.div15 {
+  display: flex;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-left: 10%;
+}
+.div16 {
+  width: 33.3%;
+  margin-right: 10%;
+  text-align: justify;
+}
+.div17 {
+  position: absolute;
+  top: 17%;
+  color: rgba(255, 253, 253,0.9);
+  text-align: center;
+  margin-left: 45%;
+}
+.div18 {
+  position: absolute;
+  top: 45%;
+  margin-left: 37%;
+}
+.div19 {
+  position: absolute;
+  top: 20%;
+  margin-left: 45%;
+}
+.h14 {
+  text-align: center;
+  border-bottom: 2px;
+  border-bottom: solid;
+  display: inline;
+  margin-left: 50%;
+  padding-bottom: 5px;
+  
+  
+}
+.img1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 200px;
+}
+.h15 {
+  position: absolute;
+  top: 79%;
+  margin-left: 7%;
+}
